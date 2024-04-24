@@ -1,0 +1,77 @@
+body{
+    background-color: gray;
+}
+
+div{
+    font-size: 26px;
+}
+
+div{
+    font-style: oblique;
+    font-weight: 16px;
+}
+
+.paragrafe{
+    color: hsl(320, 100%, 50%);
+}
+
+.article{
+    font-weight: bold;
+}
+
+#header{
+    font-style: italic;
+    color: blue;
+}
+
+#header1{
+    color: red;
+    font-size: 36px;
+}
+
+h2:hover{
+    color: brown;
+}
+
+li:first-child{
+    color: magenta;
+    font-size: 26px;
+}
+
+li:last-child{
+    color: red;
+    font-size: 36px;
+}
+
+[atribut="href"] {
+    font-size: 56px;
+}
+
+p:not(.hidden){
+    color: green;
+}
+
+[title="welcome"] {
+    color: magenta;
+}
+
+li::after{
+    content: "*";
+    width: 10px;
+    height: 10px;
+}
+
+li::before{
+    content: "#";
+    width: 10px;
+    height: 10px;
+}
+
+li::first-letter{
+    background-color: aqua;
+}
+
+h1::selection{
+    color: black;
+    background-color: yellow;
+}

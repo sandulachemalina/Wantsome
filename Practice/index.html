@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CSS</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+        h1{
+            font-size: 56px;
+        }
+        p{
+            font-weight: bold;
+        }
+        h2{
+            color: red;
+        }
+    </style>
+</head>
+
+<!--
+
+  <p class="nume">test</p>
+  <p id="test">test </p>
+
+  p{
+   color: blue;
+  }
+  
+  Folositi ce am invatat la css pentru a stiliza elementele de mai jos.
+  Adaugati css-ul inline/ inline internal/ external;
+  Trebuie sa folositi cel putin o singura data cele 3 tipuri de selectare:
+  - id
+  - class
+  - tag
+  
+  Puteti stiliza folosint proprietatile:
+  - color
+  - background-color
+  - font-size
+  - font-weight
+  
+-->
+<!-- 
+
+  [atribut]{
+    color:red
+  }
+  [atribut="value"]{
+    color:red
+  }
+
+  a:hover{}
+  a:first-child{}
+  a:last-child{}
+  a:last-of-type{}
+  a:first-of-type{}
+  a:not(selector){}
+  
+  - Faceti un hover pe un element
+  - Selectati primul si ultimul element din lista
+  - Selectati toate ancorele care au href
+  - Selectati paragrafele elementele care nu au clasa .hidden
+  p:not(.hidden) {
+    color: red;
+  }
+  - Selectati headerul cu atributul title="welcome"
+
+  Mai exersati si alte combinatii de selectori plus alte proprietati
+-->
+
+<body>
+  <header>
+    <h1 title="welcome">Welcome to CSS</h1>
+    <nav>
+      <ul>
+        <li><a href="#" style="background-color: black;">Home</a></li>
+        <li>About</li>
+        <li><a href="#" style="background-color: red;">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article class="article">
+    <h2 id="header">This will be the start of a new design ideea</h2>
+    <p class="paragrafe" class="hidden">Let's build with:</p>
+    <div>
+    <ol style="background-color: green;">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ol>
+    </div>
+    <p id="header1">After that we will add some:</p>
+    <div>
+       <ol>
+        <li>Git</li>
+        <li>React</li>
+        <li>npm</li>
+      </ol>
+    </div>
+  </article>
+  <aticle class="article">
+    <h2>Some ideeas</h2>
+    <ul>
+      <li>Cooking shop</li>
+      <li>Coffe shop</li>
+      <li>Restaurant</li>
+    </ul>
+  </aticle>
+  <footer>
+    <p class="paragrafe" class="hidden">Legal stuff here</p>
+    <nav>
+      <ul>
+        <li><a href="#" style="background-color: black;">Home</a></li>
+        <li><a href="#" style="background-color: black;">About</a></li>
+        <li><a href="#" style="background-color: black;">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
