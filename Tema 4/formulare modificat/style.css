@@ -1,0 +1,22 @@
+[for]{
+    color: skyblue;
+}
+[type="text"]{
+    border-color: green;
+}
+[type="email"]{
+    background-color: blue;
+}
+[type="button"]{
+    background-color: green;
+}
+[type="reset"]{
+    background-color: green;
+}
+.body{
+    background-color: salmon;
+}
+.form{
+    background-color: white;
+    display: inline-block;
+}
