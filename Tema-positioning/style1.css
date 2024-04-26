@@ -1,0 +1,38 @@
+body{
+    border: 0;
+    margin: 0;
+}
+
+div{
+    width: 40px;
+    height: 40px;
+}
+
+.parent{
+    position: relative;
+    width: 100vw ;
+    height: 100vh ;
+}
+
+.yellow{
+    background-color: yellow;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blue{
+    background-color: blue;
+    position: absolute ;
+    top: 20px;
+    left: 20px;
+}
+
+.green{
+    background-color: green;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
