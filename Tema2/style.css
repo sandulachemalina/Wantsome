@@ -1,0 +1,62 @@
+body{
+    border: 0;
+    margin: 0;
+}
+
+.container{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    gap: 16px;
+}
+
+.parent3{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.parent2{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.parent1{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.box1{
+    background-color: turquoise;
+    height: 200px;
+    width: 200px;
+}
+
+.box2{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+
+.box3{
+    background-color: red;
+    height: 200px;
+    width: 400px;
+}
+
+.box4{
+    background-color: blue;
+    height: 400px;
+    width: 200px;
+    margin-left: -200px;
+}
+
+.box5{
+    background-color: green;
+    height: 600px;
+    width: 200px;
+}
+
+/* nu imi dau seama de ce nu sunt box3 si box4 egale, imi scapa ceva si nu reusesc sa aflu ce */
