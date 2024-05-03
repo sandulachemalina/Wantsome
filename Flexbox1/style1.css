@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    border: 0;
+}
+
+.parent{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card1{
+    background-color: rgb(251, 251, 251);
+    border: 1px solid grey;
+    padding: 8px;
+    max-width: 200px;
+    height: 320px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 5px;
+    background-image: url("https://i.ebayimg.com/thumbs/images/g/BfgAAOSwBG5mFsxC/s-l1200.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 0px 16px 0 rgba(128, 128, 128, 0.3);
+}
+
+.card2{
+    background-color: rgb(251, 251, 251);
+    border: 1px solid grey;
+    padding: 8px;
+    max-width: 200px;
+    height: 320px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 5px;
+    background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i2nEtFZqb01I/v0/-1x-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 0px 16px 0 rgba(128, 128, 128, 0.3);
+}
+
+.card3{
+    background-color: rgb(251, 251, 251);
+    border: 1px solid grey;
+    padding: 8px;
+    max-width: 200px;
+    height: 320px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 5px;
+    background-image: url("https://robbreport.com/wp-content/uploads/2022/06/favtrio.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 0px 16px 0 rgba(128, 128, 128, 0.3);
+}
+
+.card4{
+    background-color: rgb(251, 251, 251);
+    border: 1px solid grey;
+    padding: 8px;
+    max-width: 200px;
+    height: 320px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 5px;
+    background-image: url("https://media.istockphoto.com/id/1180244659/photo/luxury-watch-isolated-on-white-background-with-clipping-path-for-artwork-or-design-black.jpg?s=612x612&w=0&k=20&c=yeFNfkQmcVV9BTUlZO8vY_oLOQgDAt23LfCbF1e3fbI=");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 0px 16px 0 rgba(128, 128, 128, 0.3);
+}
+
+.details{
+    margin-top: 130px;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+}
+
+.name{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+button{
+    border: 1px solid;
+    padding: 12px 24px;
+    color: grey;
+    background-color: white;
+    font-weight: bold;
+}
