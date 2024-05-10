@@ -1,0 +1,170 @@
+.container{
+    display: flex;
+    width: 900px;
+    height: 800px;
+    background-color: rgb(43, 43, 43);
+    position: relative;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0;
+    height: 800px;
+    width: 60px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.container2 img{
+    height: 26px;
+    width: 26px;
+    padding: 16px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hamburger-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6px;
+    width: 500px;
+    height: 800px;
+    box-sizing: border-box;
+    overflow: auto;
+    margin-left: 10px;
+}
+
+.container3 button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: rgb(251, 251, 251);
+}
+
+.container3 img{
+    margin-right: 10px;
+    padding: 8px;
+    width: 26px;
+    height: 26px;
+    background-color: rgb(0, 120, 215);
+}
+
+.container4{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    padding: 20px;
+    gap: 5px;
+    color: rgb(251, 251, 251);
+}
+
+.container4 button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: rgb(0, 120, 215);
+    color: rgb(251, 251, 251);
+}
+
+.container4 img{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 32px;
+    height: 32px;
+}
+
+.button-text{
+    margin-top: auto;
+    width: 100%;
+    text-align: left;
+}
+
+.item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.item button{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 33px;
+    box-sizing: border-box;
+}
+
+.item button:last-of-type{
+    grid-column: 1 / span 3;
+}
+
+.item img{
+    width: 20px;
+    height: 20px;
+}
+
+.container4 span{
+    grid-column: 1 / span 3;
+}
+
+.weather-button{
+    background-image: url("https://img.freepik.com/free-photo/black-rain-abstract-dark-power_1127-2380.jpg");
+    background-size: cover;
+}
+
+.netflix{
+    background-image: url("https://www.designmantic.com/blog/wp-content/uploads/2016/07/Netflix-Revamps-Logo.jpg");
+    background-size: cover;
+}
+
+.item2 button{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.item2 img{
+    width: 100%;
+    grid-row: auto;
+}
+
+.item2 span{
+    text-align: left;
+}
+
+button:hover{
+    background-color: rgb(125, 126, 127);
+    cursor: pointer;
+}
