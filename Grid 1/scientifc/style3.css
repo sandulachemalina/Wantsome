@@ -1,0 +1,122 @@
+body{
+    border: 0;
+    margin: 0;
+}
+
+.container{
+    box-sizing: border-box;
+    background-color: rgb(242, 242, 242);
+    margin: 16px;
+    border: 1px solid grey;
+    width: 300px;
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#calculator-keys .number{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 1px;
+}
+
+button{
+    height: 34px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 3px;
+    border:rgb(248, 248, 248);
+    font-size: 16px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: auto 30px 30px 30px;
+}
+
+.header button{
+    background-color: transparent;
+    color: grey;
+    border: 0;
+    height: 26px;
+}
+
+.close:hover{
+    background-color: red;
+}
+
+.min:hover, .max:hover{
+    background-color: rgb(203, 202, 202);
+}
+
+.header span{
+    font-size: 10px;
+    padding: 6px;
+    color: grey;
+}
+
+.header2{
+    font-weight: bold;
+}
+
+.header2 button{
+    background-color: transparent;
+    color: black;
+    border: 0;
+}
+
+.result{
+    height: 90px;
+    text-align: right;
+    font-size: 46px;
+}
+
+.functions1{
+    display: grid;
+    grid-template-columns: 50px 50px;
+}
+
+.functions2{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: rgb(218, 218, 218);
+}
+
+.functions3{
+    display: grid;
+    grid-template-columns: 117px 117px;
+    gap: 1px;
+}
+
+.functions1 button, .functions2 button, .functions3 button{
+    background-color: transparent;
+    border: 0;
+}
+
+.functions1 button:hover, .functions2 button:hover, .functions3 button:hover{
+    background-color: rgb(203, 202, 202);
+}
+
+.equal{
+    background-color: rgb(138, 186, 224);
+    font-size: 20px;
+}
+
+.button{
+    background-color: rgb(248, 248, 248);
+    border:grey;
+}
+
+.arrow-down{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

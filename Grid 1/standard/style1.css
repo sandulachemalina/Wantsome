@@ -1,0 +1,107 @@
+body{
+    border: 0;
+    margin: 0;
+}
+
+.container{
+    box-sizing: border-box;
+    background-color: rgb(230, 230, 230);
+    margin: 16px;
+    border: 1px solid grey;
+    width: 300px;
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#calculator-keys .number{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1px;
+}
+
+button{
+    height: 44px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 3px;
+    border:rgb(250, 250, 250);
+    font-size: 16px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: auto 30px 30px 30px;
+}
+
+.header button{
+    background-color: transparent;
+    color: grey;
+    border: 0;
+    height: 26px;
+}
+
+.close:hover{
+    background-color: red;
+}
+
+.min:hover, .max:hover{
+    background-color: rgb(203, 202, 202);
+}
+
+.header span{
+    font-size: 10px;
+    padding: 6px;
+    color: grey;
+}
+
+.header2{
+    font-weight: bold;
+}
+
+.header2 button{
+    background-color: transparent;
+    color: black;
+    border: 0;
+}
+
+.result{
+    height: 66px;
+    text-align: right;
+    font-size: 46px;
+}
+
+.percent, .clear-entry, .clear-all, .clear, .one-over-x, .x-squared, .square-root, .divide, .multiplie, .minus, .plus{
+    background-color: rgb(240, 240, 240);
+    border:grey;
+}
+
+.divide, .multiplie, .minus, .plus, .button, .comma{
+    font-size: 20px;
+}
+
+.equal{
+    background-color: rgb(138, 186, 224);
+    font-size: 20px;
+}
+
+.functions{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: rgb(218, 218, 218);
+}
+
+.functions button{
+    background-color: transparent;
+    border: 0;
+    font-weight: bold;
+}
+
+.functions button:hover{
+    background-color: rgb(203, 202, 202);
+}
