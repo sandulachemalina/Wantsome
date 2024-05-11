@@ -1,0 +1,60 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(43, 88, 113);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: rgb(251, 251, 251);
+    text-align: center;
+    margin: 16px;
+    animation: heading 2s ease-in-out 0.8s 1;
+}
+
+@keyframes heading{
+    from{
+        transform: translateY(-400px);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+
+p{
+    color: rgb(251, 251, 251);
+    text-align: center;
+    margin: 16px;
+    animation: slide-in 2s ease-in-out 1s 1;
+}
+
+@keyframes slide-in{
+    from{
+        transform: translateX(-400px);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+button{
+    color: rgb(251, 251, 251);
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 16px;
+    margin: 16px;
+    animation: fade-in 1s ease 3s forwards;
+    opacity: 0;
+}
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
