@@ -17,7 +17,6 @@ div{
 .yellow{
     background-color: yellow;
     position: absolute;
-    display: inline-block;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
