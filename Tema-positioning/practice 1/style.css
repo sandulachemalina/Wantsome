@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    border: 0;
+}
+
+.container{
+    border: 10px dotted red;
+    background-clip: content-box;
+    background-image: url("https://topu.ro/glygneeg/2023/05/pexels-pixabay-39504-850x560.jpg");
+    width: 550px;
+    height: 350px;
+    padding: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
