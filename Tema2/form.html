@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Formular</title></head>
+    <body>
+        <form>
+            <fieldset style="display: inline-block;"><legend>Pizza Order</legend>
+            <label for="your-name">Your name:</label>
+            <input type="text" name="your-name" value="Malina" minlength="3" maxlength="10" required placeholder="Your name"/>
+            <br/>
+            <br/>
+            <label for="email"> Your e-mail:</label>
+            <input type="email" name="email" value="examplemail@gmail.com" required placeholder="Your e-mail"/>
+            <br/>
+            <br/>
+            <label for="topping">Topping:</label>
+            <input type="radio" name="topping" value="Supreme"/> Supreme
+            <input type="radio" name="topping" value="Vegetarian"/> Vegetarian
+            <input type="radio" name="topping" value="Hawaian"/> Hawaian
+            <br/>
+            <br/>
+            <label for="sauce">Sauce:</label>
+            <select name="sauce">
+                <option value="tomato">Tomato</option>
+                <option value="cocktail">Cocktail</option>
+                <option value="mayonnaise">Mayonnaise</option>
+            </select>
+            <br/>
+            <br/>
+            <label for="extras">Extras:</label>
+            <input type="checkbox" name="extras" value="Cheese"/> Cheese
+            <input type="checkbox" name="extras" value="Onions"/> Onions
+            <input type="checkbox" name="extras" value="Olives"/> Olives
+            <br/>
+            <br/>
+            <label for="delivery">Delivery instructions:</label>
+            <br/>
+            <textarea name="mesaj" row="50" cols="50" required placeholder="Write here..."></textarea>
+            <br/>
+            <br/>
+            <label for="number">Number:</label>
+            <input type="number" name="quantity" min="1" max="7"/>
+            <br/>
+            <br/>
+            <label for="delivery-date">Delivery date:</label>
+            <input type="date" name="delivery-date" min="2024-04-10" value="2024-04-10"/>
+            <br/>
+            <br/>
+            <input type="button" value="Send order"/>
+            <input type="reset" value="Reset"/>
+            </fieldset>
+        </form>
+    </body>
+</html>
