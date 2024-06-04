@@ -12,7 +12,7 @@ h1{
     color: rgb(251, 251, 251);
     text-align: center;
     margin: 16px;
-    animation: heading 2s ease-in-out 0.8s 1;
+    animation: heading 2s ease-in-out 0.8s forwards;
 }
 
 @keyframes heading{
@@ -28,7 +28,7 @@ p{
     color: rgb(251, 251, 251);
     text-align: center;
     margin: 16px;
-    animation: slide-in 2s ease-in-out 1s 1;
+    animation: slide-in 2s ease-in-out 1s forwards;
 }
 
 @keyframes slide-in{
