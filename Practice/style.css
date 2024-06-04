@@ -3,15 +3,12 @@ body{
 }
 
 div{
+    font-style: oblique;
+    font-weight: 16px;
     font-size: 26px;
 }
 
-div{
-    font-style: oblique;
-    font-weight: 16px;
-}
-
-.paragrafe{
+.paragrafe-hidden{
     color: hsl(320, 100%, 50%);
 }
 
@@ -47,7 +44,7 @@ li:last-child{
     font-size: 56px;
 }
 
-p:not(.hidden){
+p:not(.paragrafe-hidden){
     color: green;
 }
 
