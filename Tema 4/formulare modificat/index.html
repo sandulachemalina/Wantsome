@@ -2,12 +2,12 @@
 <html>
     <head>
         <title>Formular</title>
-        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="style.css">
     </head>
     <body class="body">
         <form class="form">
             <fieldset style="display: inline-block;"><legend>Pizza Order</legend>
-            <label for="your-name">Your name:</label>
+            <input type= "text" id="your-name" name="your-name" value = "Malina" minlength="3" maxlength="10" required placeholder="Your name:"/>
             <input type="text" name="your-name" value="Malina" minlength="3" maxlength="10" required placeholder="Your name"/>
             <br/>
             <br/>
@@ -15,13 +15,13 @@
             <input type="email" name="email" value="examplemail@gmail.com" required placeholder="Your e-mail"/>
             <br/>
             <br/>
-            <label for="topping">Topping:</label>
+            <p>Topping:</p>
             <input type="radio" name="topping" value="Supreme"/> Supreme
             <input type="radio" name="topping" value="Vegetarian"/> Vegetarian
             <input type="radio" name="topping" value="Hawaian"/> Hawaian
             <br/>
             <br/>
-            <label for="sauce">Sauce:</label>
+            <label for="sauce" id="sauce">Sauce:</label>
             <select name="sauce">
                 <option value="tomato">Tomato</option>
                 <option value="cocktail">Cocktail</option>
@@ -29,7 +29,7 @@
             </select>
             <br/>
             <br/>
-            <label for="extras">Extras:</label>
+            <p>Extras:</p>
             <input type="checkbox" name="extras" value="Cheese"/> Cheese
             <input type="checkbox" name="extras" value="Onions"/> Onions
             <input type="checkbox" name="extras" value="Olives"/> Olives
